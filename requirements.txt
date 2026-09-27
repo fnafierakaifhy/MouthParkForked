@@ -1,4 +1,13 @@
-allosaurus>=1.0.2
+# Everything MouthPark needs that installs from prebuilt packages (no compiler):
 Pillow>=10.0.0
-click>=8.1.0
-numpy>=1.24.0
+numpy
+scipy
+torch
+pandas
+regex
+PyYAML
+unicodecsv
+munkres
+# Then run:  python mouthpark.py --install-deps
+# (adds allosaurus + panphon without their compiler-only extras
+#  editdistance / resampy / numba — MouthPark has built-in stand-ins)

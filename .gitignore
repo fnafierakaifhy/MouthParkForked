@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
-*.pyo
 .venv/
 venv/
 .env
@@ -12,14 +11,15 @@ build/
 *.webm
 *.mp4
 *.mov
+*.timeline.json
+frames/
 
 # Scratch audio (keep test.mp3 / test02.mp3 / test03.mp3 as regression samples)
 00.mp3
 00.wav
 
-# Claude session state
-.claude/
-
-# IDE
+# IDE / tools
 .vscode/
 .idea/
+.claude/
+.ruff_cache/
