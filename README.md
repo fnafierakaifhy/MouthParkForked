@@ -273,9 +273,9 @@ MouthPark-0.6.1/
 ├── pyproject.toml, requirements.txt
 ```
 
-## Non-goals
+## AI WARNING
 
-Multilingual support, face/head/body animation, real-time streaming, GUI.
+Forked entirely by Claude
 
 ## License
 
